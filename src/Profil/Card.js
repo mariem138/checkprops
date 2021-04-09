@@ -1,6 +1,7 @@
-import React, { Children } from 'react'
+import React, { children } from 'react'
 import './Cards.css';
 import PropTypes from 'prop-types' ;
+import FullName from './Profil';
 
 const Card = ({FullName , Bio , Profession, children }) => {
     return (
